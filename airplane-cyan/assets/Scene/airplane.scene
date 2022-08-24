@@ -110,6 +110,9 @@
     "_shadowSaturation": 1,
     "_shadowDistance": 100,
     "_shadowInvisibleOcclusionRange": 200,
+    "_csmLevel": 1,
+    "_csmLayerLambda": 0.75,
+    "_csmOptimizationMode": 2,
     "_shadowFixedArea": false,
     "_shadowNear": 0.1,
     "_shadowFar": 10,
@@ -305,13 +308,13 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "bbc66e35-613a-459a-957a-3b9c5488d633",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 10
     },
@@ -394,13 +397,13 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_visFlags": 0,
     "_materials": [
       {
         "__uuid__": "bbc66e35-613a-459a-957a-3b9c5488d633",
         "__expectedType__": "cc.Material"
       }
     ],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 13
     },
@@ -486,8 +489,8 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_visFlags": 0,
     "_materials": [],
+    "_visFlags": 0,
     "lightmapSettings": {
       "__id__": 16
     },
@@ -637,7 +640,10 @@
     "_diffuseMapHDR": null,
     "_diffuseMapLDR": null,
     "_enabled": true,
-    "_useHDR": true
+    "_useHDR": true,
+    "_editableMaterial": null,
+    "_reflectionHDR": null,
+    "_reflectionLDR": null
   },
   {
     "__type__": "cc.FogInfo",
