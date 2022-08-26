@@ -13,12 +13,17 @@ export class MovingSceneBg extends Component {
     private _bgMovingRange = 90;
 
     start() {
-
+        this._init();
     }
 
     update(deltaTime: number) {
         this._moveBackground(deltaTime)
         
+    }
+
+    private _init(){
+        this.bg01.setPosition(0, 0, 0);
+        this.bg02.setPosition(0, 0, -this._bgMovingRange);
     }
 
     private _moveBackground(deltaTime: number){
