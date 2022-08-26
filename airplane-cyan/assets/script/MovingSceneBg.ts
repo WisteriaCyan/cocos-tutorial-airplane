@@ -21,6 +21,10 @@ export class MovingSceneBg extends Component {
         
     }
 
+    test(){
+        this._init();
+    }
+
     private _init(){
         this.bg01.setPosition(0, 0, 0);
         this.bg02.setPosition(0, 0, -this._bgMovingRange);
